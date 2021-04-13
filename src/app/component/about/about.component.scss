@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Source+Sans+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+.content {
+  padding: 2em 1em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  height: 80%;
+}
+
+.ng-content {
+  padding: 2em 1em;
+}
+span {
+  font-size: 3em;
+  font-weight: bolder;
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  margin-top: 1em;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+}
+
+.tech-stack {
+  margin-top: 3em;
+}
+.techs {
+  margin-top: 3em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.tech {
+  padding: 1.5em 1em;
+}
+
+span.tech-name{
+  font-size: 2em;
+}
+img{
+  margin: 2em 2.5em;
+}
+
+@media screen and (min-width: 750px) {
+  .ng-content,
+  .tech-stack {
+    width: 50%;
+  }
+  span {
+    font-size: 4em;
+  }
+  p {
+    font-size: 2em;
+  }
+}

@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+.content {
+  padding: 1em 1em;
+  display: flex;
+  justify-content: center;
+}
+mat-toolbar {
+  background-color: transparent;
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+span.logo {
+  font-family: "DotGothic16", sans-serif;
+}
+
+span.nav {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+span {
+  font-size: 1.5em;
+  margin-left: 1em;
+}
+
+mat-icon {
+  font-size: 45px;
+  margin-left: 1em;
+  vertical-align: middle;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+mat-icon:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1200px) {
+  mat-toolbar {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  mat-icon {
+    font-size: 35px;
+    margin-left: 0;
+  }
+  .content {
+    padding: 0 0;
+  }
+  span {
+    font-size: 1em;
+  }
+}
