@@ -2,15 +2,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
 
 .content {
+  margin: 0 auto;
   padding: 2em 1em;
   display: flex;
   flex-flow: column;
   align-items: center;
   height: 80%;
+  max-width: 1400px;
 }
 
 .ng-content {
-  padding: 2em 1em;
+  padding: 3em 1em;
 }
 span {
   font-size: 35px;
@@ -34,18 +36,18 @@ p {
   margin-top: 3em;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
 }
 
 .tech {
-  padding: 1.5em 1em;
+  width: 100%;
+  padding: 1.5em 0;
 }
 
 span.tech-name {
-  font-size: 30px;
+  font-size: 25px;
 }
 img {
-  margin: 2em 2.5em;
+  margin: 2em 1.5em;
 }
 
 @media screen and (min-width: 750px) {
