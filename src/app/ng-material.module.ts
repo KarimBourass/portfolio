@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 
+import {MatButtonModule} from '@angular/material/button';
 import { NgModule } from '@angular/core';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
@@ -14,6 +15,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     CommonModule
   ],
   exports: [
+    MatButtonModule,
     MatCardModule,
     MatChipsModule,
     MatDividerModule,
