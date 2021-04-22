@@ -17,18 +17,16 @@
   font-family: "Poppins", sans-serif;
 
   .card-img {
-    height: 250px;
     border-radius: 10px;
     margin: 0 auto;
-    width: 70%;
+    width: 90%;
     max-width: 450px;
-    border: 48px solid hsl(257, 77%, 98%);
   }
 
   .card-info {
     margin: 0 auto;
     max-width: 450px;
-    padding: 2em 4em;
+    padding: 2em 2em;
 
     .card-header {
       display: flex;
@@ -46,6 +44,17 @@
 
     .technologies {
       margin-top: 2em;
+    }
+  }
+}
+
+@media (min-width: 956px) {
+  .card-inverse {
+    .card-img {
+      order: 2;
+    }
+    .card-info {
+      order: 1;
     }
   }
 }
