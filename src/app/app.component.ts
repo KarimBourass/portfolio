@@ -7,11 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-  ngOnInit(): void {
-    localStorage.setItem('themIcon', 'wb_sunny');
-  }
-
   isDark = false;
+  darkMode: string | null | undefined;
+  ngOnInit(): void {
+    this.darkMode = localStorage.getItem('themIcon');
+    if (this.darkMode == 'wb_sunny')
+      this.isDark = false;
+    else
+      this.isDark = true
+
+  }
 
   themeTogled() {
     if (this.isDark)
