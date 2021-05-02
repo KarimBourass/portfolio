@@ -28,14 +28,13 @@ p {
   font-family: "Raleway", sans-serif;
 }
 
-.tech-stack {
-  margin-top: 3em;
-}
 
 .techs {
   margin-top: 3em;
   display: flex;
   flex-flow: row wrap;
+
+
 }
 
 .tech {
@@ -58,4 +57,10 @@ img {
   p {
     font-size: 25px;
   }
+
+  .front-back {
+    margin-right: 7em;
+  }
+
+
 }

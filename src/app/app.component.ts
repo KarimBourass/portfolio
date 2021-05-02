@@ -14,7 +14,10 @@ export class AppComponent implements OnInit {
     if (this.darkMode == 'wb_sunny')
       this.isDark = false;
     else
+    {
+      localStorage.setItem('themIcon', 'dark_mode');
       this.isDark = true
+    }
 
   }
 

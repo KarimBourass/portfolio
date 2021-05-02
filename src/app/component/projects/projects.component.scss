@@ -15,6 +15,8 @@
   display: flex;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
+  box-shadow: rgb(169 174 183 / 50%) 2px 2px 2px 0px;
+  padding: 1em;
 
   .card-img {
     border-radius: 10px;
