@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
     this.themIcon = localStorage.getItem('themIcon');
   }
 
-  clicSurBouton() {
+  toggleDarkTheme() {
     if (this.themIcon == 'dark_mode') {
       localStorage.setItem('themIcon', 'wb_sunny');
       this.themIcon = 'wb_sunny'
