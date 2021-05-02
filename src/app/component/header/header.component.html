@@ -8,11 +8,11 @@
     <div class="navigation" fxShow.gt-xs fxHide>
       <a routerLink="/about" routerLinkActive="active"><span class="nav">About</span></a>
       <a routerLink="/projects" routerLinkActive="active"><span class="nav">Projects</span></a>
-      <mat-icon (click)="clicSurBouton()" style="height:60px;width:60px;">{{themIcon}}</mat-icon>
+      <mat-icon (click)="toggleDarkTheme()" style="height:60px;width:60px;">{{themIcon}}</mat-icon>
     </div>
 
     <div class="navigation-sm" fxHide.gt-xs fxShow>
-      <mat-icon (click)="clicSurBouton()" style="height:40px;width:40px;">{{themIcon}}</mat-icon>
+      <mat-icon (click)="toggleDarkTheme()" style="height:40px;width:40px;">{{themIcon}}</mat-icon>
       <button mat-button [matMenuTriggerFor]="menu">
         <mat-icon style="height:40px;width:40px;">menu</mat-icon>
       </button>
