@@ -8,6 +8,7 @@ import { NgMaterialModule } from './ng-material.module';
 import { HeaderComponent } from './component/header/header.component';
 import { HomeComponent } from './component/home/home.component';
 import { AboutComponent } from './component/about/about.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProjectsComponent } from './component/projects/projects.component';
 
 
@@ -21,6 +22,7 @@ import { ProjectsComponent } from './component/projects/projects.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     FlexLayoutModule,
     NgMaterialModule
